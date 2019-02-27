@@ -16,7 +16,6 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/syntastic'
 Plugin 'bling/vim-airline'
-Plugin 'tomasr/molokai'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'plasticboy/vim-markdown'
 
@@ -41,9 +40,13 @@ filetype plugin on
 set number
 set autoindent
 set tabstop=4
-syntax enable
+syntax on
 set hlsearch
 set showmatch
-colorscheme monokai
+colorscheme onedark
 set guifont=Source\ Code\ Pro\ Medium:h18
+
+function MyTemplate()
+  :read ~/.vim/templates/skeleton.c
+endfunction
 
