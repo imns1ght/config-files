@@ -187,8 +187,8 @@ bar {
         	separator #666666
 
 	        focused_workspace  #18f018 #000000 #18f018
-        	active_workspace   #333333 #5f676a #ffffff
-	        inactive_workspace #333333 #222222 #888888
+        	active_workspace   #21252b #5f676a #ffffff
+	        inactive_workspace #21252b #21252b #888888
         	urgent_workspace   #2f343a #900000 #ffffff
 	        binding_mode       #2f343a #900000 #ffffff
 	}
